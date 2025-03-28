@@ -1,4 +1,4 @@
-title: "Accueil"
+title: ""
 description: "Entreprise artisanale - Portfolio"
 url: "https://batilibservice.github.io"
 baseurl: "/testportfolio"
@@ -8,7 +8,7 @@ remote_theme: mmistakes/minimal-mistakes
 header:
   nav: false
 
-breadcrumbs: false  # ✅ désactive les "Accueil > ..." automatiques
+breadcrumbs: false
 
 plugins:
   - jekyll-include-cache
