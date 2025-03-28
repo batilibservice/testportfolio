@@ -131,10 +131,19 @@ Nous mettons un point d'honneur à respecter les délais tout en garantissant un
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" itemscope itemtype="https://schema.org/LocalBusiness">
       <h2 class="section-title">Contact</h2>
-      <p>📧 Email : <a href="mailto:contact@entreprise.com">contact@entreprise.com</a></p>
-      <p>📍 Adresse : 123 Rue des Artisans, 74000 Annecy</p>
+      <meta itemprop="name" content="Nom de l'entreprise" />
+<meta itemprop="url" content="https://batilibservice.github.io/testportfolio/" />
+<meta itemprop="telephone" content="+33612345678" />
+<meta itemprop="email" content="contact@entreprise.com" />
+<p>📧 Email : <a href="mailto:contact@entreprise.com" itemprop="email">contact@entreprise.com</a></p>
+      <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+  📍 Adresse :
+  <span itemprop="streetAddress">123 Rue des Artisans</span>,
+  <span itemprop="postalCode">74000</span>
+  <span itemprop="addressLocality">Annecy</span>
+</div>
       <div class="text-center mt-3">
         <a href="tel:+33612345678" class="btn btn-warning btn-lg w-100 w-sm-auto">
           📞 Appeler le 06 12 34 56 78
