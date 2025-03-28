@@ -1,8 +1,15 @@
 ---
 layout: single
-title: "Nom de l'entreprise"
-author_profile: false
+title: "Accueil"
+header: 
+  overlay: false
 ---
+
+{% include header.html %}
+
+## 🛠️ À propos
+...
+
 
 ## 🛠️ À propos
 
