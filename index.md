@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Accueil"
+title: ""
 header: 
   overlay: false
 ---
