@@ -36,6 +36,6 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
     values:
-      custom_css:
-        - /assets/css/custom.css
+      custom_css: "/assets/css/custom.css"
