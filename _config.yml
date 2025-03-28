@@ -25,3 +25,17 @@ atom_feed:
 copyright: Nom de l'entreprise. Un service BATILIBSERVICE.
 
 minimal_mistakes_skin: "default"
+
+sass:
+  style: compressed
+
+include:
+  - assets/css
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      custom_css:
+        - /assets/css/custom.css
