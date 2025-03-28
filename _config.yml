@@ -1,6 +1,6 @@
-title: "Nom de l'entreprise"
+title: "Accueil"
 description: "Entreprise artisanale - Portfolio"
-url: "https://ton-pseudo.github.io"
+url: "https://batilibservice.github.io"
 baseurl: "/testportfolio"
 
 remote_theme: mmistakes/minimal-mistakes
@@ -10,6 +10,7 @@ plugins:
 
 markdown: kramdown
 
+# Lien du menu de navigation (à relier à _data/navigation.yml si besoin)
 footer:
   links:
     - label: "Facebook"
@@ -19,13 +20,17 @@ footer:
       icon: "fab fa-instagram"
       url: "https://www.instagram.com/tonentreprise"
 
+# Masquer le flux RSS (feed)
 atom_feed:
   hide: true
 
-copyright: Nom de l'entreprise. Un service BATILIBSERVICE
+# Copyright personnalisé
+copyright: Nom de l'entreprise. Un service BATILIBSERVICE.
 
+# Style visuel
 minimal_mistakes_skin: "default"
 
+# Inclure du CSS personnalisé
 sass:
   style: compressed
 
