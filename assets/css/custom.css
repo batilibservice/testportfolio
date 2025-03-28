@@ -1,40 +1,9 @@
-/* Masque la mention "Powered by Jekyll & Minimal Mistakes" */
+/* Footer personnalisé */
 .site-footer .powered-by {
   display: none;
 }
-.custom-header {
-  background: #f8f8f8;
-  border-bottom: 1px solid #ddd;
-  padding: 1rem 0;
-  font-family: sans-serif;
-}
 
-.custom-header .wrapper {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1rem;
-}
-
-.custom-header .logo a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-.custom-header .nav-links a {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: #555;
-  font-weight: 500;
-}
-
-.custom-header .nav-links a:hover {
-  text-decoration: underline;
-}
+/* Bouton Appeler maintenant */
 .call-button {
   text-align: center;
   margin-top: 1.5rem;
