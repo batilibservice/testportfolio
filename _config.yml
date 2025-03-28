@@ -6,7 +6,9 @@ baseurl: "/testportfolio"
 remote_theme: mmistakes/minimal-mistakes
 
 header:
-  nav: false  # ✅ désactive la navigation auto
+  nav: false
+
+breadcrumbs: false  # ✅ désactive les "Accueil > ..." automatiques
 
 plugins:
   - jekyll-include-cache
