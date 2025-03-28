@@ -1,4 +1,4 @@
-/* 🔇 Masquer "Powered by Jekyll & Minimal Mistakes" */
+/* 🔇 Masquer le message "Powered by Jekyll & Minimal Mistakes" */
 .site-footer .powered-by {
   display: none;
 }
@@ -33,7 +33,7 @@
   align-items: center;
   gap: 1rem;
   font-weight: 500;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 .nav-links-centered a {
