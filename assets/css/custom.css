@@ -1,9 +1,9 @@
-/* 🔇 Masquer le message "Powered by Jekyll & Minimal Mistakes" */
+/* 🔇 Masquer "Powered by Jekyll & Minimal Mistakes" */
 .site-footer .powered-by {
   display: none;
 }
 
-/* 🎨 HEADER personnalisé */
+/* 🎨 HEADER personnalisé centré */
 .custom-header {
   background: #f8f8f8;
   border-bottom: 1px solid #ddd;
@@ -15,28 +15,41 @@
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 0 1rem;
 }
 
 .custom-header .logo img {
   display: block;
-  height: 48px;
+  height: 64px;
+  margin-bottom: 0.5rem;
 }
 
-.custom-header .nav-links a {
-  margin-left: 1rem;
+.nav-links-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.nav-links-centered a {
   text-decoration: none;
   color: #555;
-  font-weight: 500;
 }
 
-.custom-header .nav-links a:hover {
+.nav-links-centered a:hover {
   text-decoration: underline;
 }
 
-/* 📱 Bouton "Appeler maintenant" */
+.pipe {
+  color: #bbb;
+}
+
+/* 📞 Bouton "Appeler maintenant" */
 .call-button {
   text-align: center;
   margin-top: 1.5rem;
@@ -59,7 +72,7 @@
   background-color: #218838;
 }
 
-/* 📞 Mise en valeur des liens téléphoniques & mail */
+/* 📱 Mise en valeur des liens téléphone & mail */
 a[href^="tel:"],
 a[href^="mailto:"] {
   color: #007bff;
@@ -70,34 +83,4 @@ a[href^="mailto:"] {
 a[href^="tel:"]:hover,
 a[href^="mailto:"]:hover {
   text-decoration: underline;
-}
-/* 🔧 Header centré avec logo au-dessus des liens */
-.centered-header .wrapper {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.centered-header .logo img {
-  height: 64px;
-  margin-bottom: 0.5rem;
-}
-
-.nav-links-centered {
-  display: flex;
-  gap: 1rem;
-  font-weight: 500;
-}
-
-.nav-links-centered a {
-  text-decoration: none;
-  color: #555;
-}
-
-.nav-links-centered a:hover {
-  text-decoration: underline;
-}
-
-.pipe {
-  color: #ccc;
 }
