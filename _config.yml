@@ -1,16 +1,10 @@
-title: "Thierry — Portfolio"
-description: "Développeur web full-stack, graphiste & community manager"
+title: "Nom de l'entreprise"
+description: "Entreprise artisanale - Portfolio"
 url: "https://ton-pseudo.github.io"
 baseurl: "/testportfolio"
 theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-include-cache
-
-author:
-  name   : "Thierry"
-  avatar : "/assets/images/thierry.jpg"
-  bio    : "Développeur web & créatif basé en France."
-  email  : "ton.email@example.com"
 
 markdown: kramdown
