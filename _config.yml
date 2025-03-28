@@ -10,32 +10,19 @@ plugins:
 
 markdown: kramdown
 
-# Lien du menu de navigation (à relier à _data/navigation.yml si besoin)
-footer:
-  links:
-    - label: "Facebook"
-      icon: "fab fa-facebook"
-      url: "https://www.facebook.com/tonentreprise"
-    - label: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/tonentreprise"
-
-# Masquer le flux RSS (feed)
 atom_feed:
   hide: true
 
-# Copyright personnalisé
 copyright: Nom de l'entreprise. Un service BATILIBSERVICE.
 
-# Style visuel
 minimal_mistakes_skin: "default"
 
-# Inclure du CSS personnalisé
 sass:
   style: compressed
 
 include:
   - assets/css
+  - _includes
 
 defaults:
   -
