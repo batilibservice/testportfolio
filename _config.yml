@@ -1,7 +1,7 @@
 title: "Nom de l'entreprise"
 description: "Entreprise artisanale - Portfolio"
 url: "https://ton-pseudo.github.io"
-baseurl: "/testportfolio"  # important pour les chemins
+baseurl: "/testportfolio"
 
 remote_theme: mmistakes/minimal-mistakes
 
@@ -9,3 +9,20 @@ plugins:
   - jekyll-include-cache
 
 markdown: kramdown
+
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/tonentreprise"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/tonentreprise"
+
+atom_feed:
+  hide: true
+
+copyright:
+  label: "© 2025 Nom de l'entreprise. Un service BATILIBSERVICE."
+
+minimal_mistakes_skin: "default"
