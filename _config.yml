@@ -1,8 +1,9 @@
 title: "Nom de l'entreprise"
 description: "Entreprise artisanale - Portfolio"
-url: "https://batilibservice.github.io"
-baseurl: "/testportfolio"
-theme: minimal-mistakes-jekyll
+url: "https://ton-pseudo.github.io"
+baseurl: "/testportfolio"  # important pour les chemins
+
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-include-cache
