@@ -1,3 +1,4 @@
+/* Masque la mention "Powered by Jekyll & Minimal Mistakes" */
 .site-footer .powered-by {
   display: none;
 }
